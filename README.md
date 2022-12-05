@@ -15,12 +15,9 @@ Pour cela on aura travaillera sur les points suivants :
 
 1. Récupération des données et webscrapping
 
-- 
-  !pip install lxml
-- 
-  import requests 
-- 
-  import urllib
+`!pip install lxml`
+`import requests`
+`import urllib`
 - import bs4
 - import pandas as pd
 - from urllib import request
