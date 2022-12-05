@@ -17,46 +17,46 @@ Pour cela on aura travaillera sur les points suivants :
 
 `!pip install lxml` \
 `import requests`\
-`import urllib`
+`import urllib`\
 `import bs4`\
 `import pandas as pd`\
 `from urllib import request`\
 `import re`\
 `from tqdm import tqdm`\
-`from scipy import *`\
+`from scipy import *`
 
 2. Visualisation et analyse des données
 
 Lecture et traitement du dataframe:\
-`import pandas as pd`\ 
-`import numpy as np`\
+`import pandas as pd`\
+`import numpy as np`
 
 Rapport sur les données pandas :\
 `!pip install pandas_profiling`\
 `!pip install ipywidgets`\
-`from pandas_profiling import ProfileReport`\
+`from pandas_profiling import ProfileReport`
 
 Visualisation et analyse graphique des données\
-`import matplotlib.pyplot as plt`\
+`import matplotlib.pyplot as plt`
 
 Visualisation et analyse cartographique des données\
 `!pip install pandas fiona shapely pyproj rtree`\
 `!pip install contextily`\
 `!pip install geopandas`\
 `import geopandas as `\
-`import contextily as ctx`\
+`import contextily as ctx`
 
 Corrélation entre les données\
-`import seaborn as sns`\
+`import seaborn as sns`
 
 3. Modélisation
 
 Pour normaliser les données, on choisit MinMaxScaler de la librairie Sklearn
 `from sklearn.preprocessing import MinMaxScaler`\
-`from sklearn.model_selection import train_test_split`\
+`from sklearn.model_selection import train_test_split`
 
 Pour...
-`from sklearn.linear_model import Ridge`\
+`from sklearn.linear_model import Ridge`
       
 Pour...
 `from sklearn.metrics import mean_absolute_percentage_error, mean_squared_error, mean_absolute_error, explained_variance_score`
