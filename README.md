@@ -3,13 +3,13 @@
 Projet Python de deuxième année pour le cours Python pour la Data Science réalisé par Dmitri Lebrun, Corentin Pernot, Nina Stizi. 
 
 ## Le but de ce projet est de prédire le Revenue d'un film en fonction de ses caractéristiques. 
-Pour cela on aura travaillera sur les points suivants : 
+Pour cela on avons travaillé les thématiques suivantes : 
 - Scrapper les titres de films sur une page Wikipédia https://en.wikipedia.org/wiki/List_of_years_in_film
 - Retrouver les identifiants correspondants à ces titres via l'API IMDB
 - Utiliser une autre API et récupérer les données de ces films via leur identifiant IMDB 
 - Traiter les variables et nettoyer le dataset 
 - Visualiser les données sous forme graphique et cartographique
-- Appliquer un/des modèle/s de Machine Learning afin de prédire le revenu du film
+- Appliquer un(des) modèle(s) de Machine Learning afin de prédire le revenu du film
 
 ## Voilà les modules et packages nécessaires à la lecture du code :
 
@@ -55,8 +55,8 @@ Pour normaliser les données, on choisit MinMaxScaler de la librairie Sklearn
 `from sklearn.preprocessing import MinMaxScaler`\
 `from sklearn.model_selection import train_test_split`
 
-Pour...
+Pour...\
 `from sklearn.linear_model import Ridge`
       
-Pour...
+Pour...\
 `from sklearn.metrics import mean_absolute_percentage_error, mean_squared_error, mean_absolute_error, explained_variance_score`
