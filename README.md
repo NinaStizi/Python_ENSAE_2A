@@ -51,7 +51,7 @@ Corrélation entre les données\
 
 3. Modélisation
 
-Pour normaliser les données, on choisit MinMaxScaler de la librairie Sklearn
+Pour normaliser les données, on choisit MinMaxScaler de la librairie Sklearn\
 `from sklearn.preprocessing import MinMaxScaler`\
 `from sklearn.model_selection import train_test_split`
 
