@@ -53,8 +53,8 @@ Corrélation entre les données\
 
 Pour normaliser les données, on choisit MinMaxScaler de la librairie Sklearn\
 `from sklearn.preprocessing import MinMaxScaler`\
-`from sklearn.model_selection import train_test_split`
-`from sklearn.preprocessing import RobustScaler`
+`from sklearn.model_selection import train_test_split`\
+`from sklearn.preprocessing import RobustScaler`\
 `from sklearn.preprocessing import StandardScaler`
 
 On implémente notre modèle grâce à la librairie Sklearn\
