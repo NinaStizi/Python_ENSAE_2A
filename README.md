@@ -63,6 +63,6 @@ On implémente notre modèle grâce à la librairie Sklearn\
 `from sklearn.ensemble import RandomForestRegressor`
       
 Pour mesurer la performance de nos modèles\
-`from sklearn.metrics import mean_absolute_percentage_error, mean_squared_error, mean_absolute_error, explained_variance_score`
+`from sklearn.metrics import mean_absolute_percentage_error, mean_squared_error, mean_absolute_error, explained_variance_score`\
 `from scipy import stats`\
 `from sklearn.model_selection import GridSearchCV`
