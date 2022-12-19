@@ -53,10 +53,16 @@ Corrélation entre les données\
 
 Pour normaliser les données, on choisit MinMaxScaler de la librairie Sklearn\
 `from sklearn.preprocessing import MinMaxScaler`\
-`from sklearn.model_selection import train_test_split`
+`from sklearn.model_selection import train_test_split`\
+`from sklearn.preprocessing import RobustScaler`\
+`from sklearn.preprocessing import StandardScaler`
 
-Pour...\
+On implémente notre modèle grâce à la librairie Sklearn\
 `from sklearn.linear_model import Ridge`
+`from sklearn.linear_model import LassoCV`
+`from sklearn.ensemble import RandomForestRegressor`
       
-Pour...\
-`from sklearn.metrics import mean_absolute_percentage_error, mean_squared_error, mean_absolute_error, explained_variance_score`
+Pour mesurer la performance de nos modèles\
+`from sklearn.metrics import mean_absolute_percentage_error, mean_squared_error, mean_absolute_error, explained_variance_score`\
+`from scipy import stats`\
+`from sklearn.model_selection import GridSearchCV`
