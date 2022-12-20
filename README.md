@@ -9,8 +9,6 @@ Pour cela nous avons travaillé les thématiques suivantes :
 
        I.1. Scrapping les titres de films sur une page Wikipédia https://en.wikipedia.org/wiki/List_of_years_in_film 
        I.2. Récupération de l'identifiant des films grâce à une API TMDB (the movie database)
-
-
              I.2.1. Cas particulier pour un film
              I.2.2. Généralisation 
        I.3. Récupération des informations détaillées des films à partir de leur identifiant grâce à une autre API TMDB 
